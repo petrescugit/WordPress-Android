@@ -3,11 +3,11 @@
 source 'https://rubygems.org'
 
 gem 'fastlane', '~> 2'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.15.6'
 
 ### Fastlane Plugins
 
-gem 'fastlane-plugin-wpmreleasetoolkit', '~> 9.0'
+gem 'fastlane-plugin-wpmreleasetoolkit', '~> 9.0', '>= 9.0.1'
 # gem 'fastlane-plugin-wpmreleasetoolkit', path: '../../release-toolkit'
 # gem 'fastlane-plugin-wpmreleasetoolkit', git: 'https://github.com/wordpress-mobile/release-toolkit', branch: 'trunk'
 
